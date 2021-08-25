@@ -1,0 +1,19 @@
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    
+    left: 0%;
+    text-align: justify;
+}
+header{
+    text-align: center;
+}
+@media (max-width: 600px){
+    .img1{
+        width: 100%;
+    }
+    .texto{
+        color: blue;
+    }
+     
+}

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Varela';
+    src: url('VarelaRound-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Pacifico&display=swap');
+
+.texto{
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+header{
+    font-family: 'Varela', sans-serif;
+    font-size: 105px;
+    color: white;
+}
+body{
+    background-color: #5f7285;
+}
+.img{
+    border: 5px solid blue;
+    
+   
+}
+p:hover{
+    color: red;
+}
+@media (max-width: 600px){
+    .img{
+        width: 100%;
+    }
+    header{
+        font-size: 20px;
+    }
+
+     
+}
+    
